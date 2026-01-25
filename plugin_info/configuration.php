@@ -52,6 +52,14 @@ if (!isConnect()) {
         <input class="configKey form-control" type="password" data-l1key="password"/>
       </div>
     </div>
+
+    <div class="form-group">
+      <label class="col-md-4 control-label">{{Alarm PIN}}</label>
+      <div class="col-md-4">
+        <input class="configKey form-control" type="password" data-l1key="alarm_pin"/>
+      </div>
+    </div>
+
     <div class="form-group">
       <label class="col-md-4 control-label">{{Port socket interne}}</label>
       <div class="col-md-4">
